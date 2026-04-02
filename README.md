@@ -62,15 +62,3 @@ npm run build
 
 - This project currently does not require any API keys.
 - If you add secrets later, store them in `.env` files, which are already ignored by Git.
-
-## Suggested Git Push Workflow
-
-```powershell
-cd C:\GeoAnalyzer
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-git push -u origin main
-```
